@@ -2,8 +2,8 @@ package net.moniatovsky.parser;
 
 import net.moniatovsky.parser.model.DirectoryReport;
 import net.moniatovsky.parser.model.FileReport;
-import net.moniatovsky.parser.service.FileParserService;
-import net.moniatovsky.parser.service.PrinterService;
+import net.moniatovsky.parser.service.ParseFileService;
+import net.moniatovsky.parser.service.PrintReportService;
 
 import java.io.File;
 import java.util.Scanner;
@@ -11,8 +11,8 @@ import java.util.Scanner;
 public class ApplicationLauncher {
 
     public static void main(String[] args) {
-        FileParserService fileParserService = new FileParserService();
-        PrinterService printerService = new PrinterService();
+        ParseFileService fileParserService = new ParseFileService();
+        PrintReportService printerService = new PrintReportService();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter path to file or directory:");
         File file = new File(scanner.nextLine());

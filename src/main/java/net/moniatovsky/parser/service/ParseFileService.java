@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 /***/// Slightly pathological comment ending...
 
 
-public class FileParserService {
+public class ParseFileService {
 
     private static final String OPEN_COMMENT_SIGN = "/*";
     private static final String CLOSE_COMMENT_SIGN = "*/";

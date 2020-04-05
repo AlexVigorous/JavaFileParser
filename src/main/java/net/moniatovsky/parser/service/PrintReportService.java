@@ -4,7 +4,7 @@ import net.moniatovsky.parser.model.DirectoryReport;
 import net.moniatovsky.parser.model.FileReport;
 import net.moniatovsky.parser.util.ParserUtils;
 
-public class PrinterService {
+public class PrintReportService {
 
     public void printFileReport(FileReport fileReport, int level) {
         System.out.println(ParserUtils.getTabsString(level) + fileReport.getFileName() + " : " + fileReport.getLinesCount());

@@ -9,7 +9,7 @@ import java.io.File;
 
 public class FileParserServiceTest {
 
-    private FileParserService fileParserService = new FileParserService();
+    private ParseFileService fileParserService = new ParseFileService();
 
     @Test
     public void testDirectory() {
