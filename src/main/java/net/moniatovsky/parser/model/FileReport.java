@@ -9,7 +9,7 @@ import lombok.Getter;
 @EqualsAndHashCode
 public class FileReport {
 
-    private String fileName;
-    private int linesCount;
+  private String fileName;
+  private int linesCount;
 
 }
